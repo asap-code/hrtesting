@@ -1,0 +1,9 @@
+openpyxl
+scikit-learn
+scikit-llm
+pandas
+numpy
+openai
+Flask
+request
+jsonify
