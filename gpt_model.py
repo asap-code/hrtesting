@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 class GPTModel:
     def __init__(self):
         # Set up the configuration
-        SKLLMConfig.set_gpt_key("4b81012d55fb416c9e398f6149c3071e")
-        SKLLMConfig.set_azure_api_base("https://ey-sandbox.openai.azure.com/")
+        SKLLMConfig.set_gpt_key("")
+        SKLLMConfig.set_azure_api_base("")
 
         # Initialize the classifier
         self.clf = FewShotGPTClassifier(model="azure::gpt-4-32k")
